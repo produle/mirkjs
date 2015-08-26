@@ -1,7 +1,5 @@
 # MirkJS #
 
-Application architechture for rivets.js
-
 ### What is it? ###
 
 * MirkJS lets you create reusable UI component in less time
