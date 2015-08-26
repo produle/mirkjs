@@ -1,10 +1,8 @@
 # MirkJS #
 
-Application architechture for rivets.js
-
 ### What is it? ###
 
-* MirkJS lets you create fully managed controller for rivets.js which automatically load/cache/flush rivets templates
+* MirkJS lets you create reusable UI component in less time
 * Lets you create events
 * Provides structure to your app which is scaleable
 
