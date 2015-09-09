@@ -1,0 +1,46 @@
+#grid
+{
+	width: 100%;
+}
+.photogrid
+{
+    padding-left: 0;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1040px;
+    position: relative;
+}
+.photogrid .photo
+{
+	list-style-type: none;
+	margin: 1px;
+	display: inline-block;
+	cursor: pointer;
+	transition: ease all 0.3s;
+}
+
+.photogrid .photo img 
+{
+	height: 40px;
+}
+
+.photogrid .photo:hover
+{
+	transform: scale(1.2);
+}
+
+#viewer
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: none;
+    top: 0;
+    left: 0;
+
+}
+#viewer.show
+{
+	display: block;
+}
